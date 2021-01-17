@@ -17,7 +17,7 @@ public class HomeController {
 
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String showLoginPage(ModelMap model) {
-		return "login";
+		return "Hello Manoj welcome to Google Cloud World ";
 	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
